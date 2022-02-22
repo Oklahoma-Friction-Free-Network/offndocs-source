@@ -1,0 +1,48 @@
+{
+
+  "name": "offn_docs",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "clean": "make clean",
+
+    "build": "make html",
+
+    "deploy": "gh-pages -b main --remote static -d build/html"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/Oklahoma-Friction-Free-Network/offndocs-source.git"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "bugs": {
+
+    "url": "https://github.com/Oklahoma-Friction-Free-Network/offndocs-source/issues"
+
+  },
+
+  "homepage": "https://github.com/Oklahoma-Friction-Free-Network/offndocs-source#readme",
+
+  "dependencies": {
+
+    "gh-pages": "^3.2.3"
+
+  }
+
+}
+
