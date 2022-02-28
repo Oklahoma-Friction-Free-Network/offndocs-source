@@ -12,6 +12,6 @@
 
 ## Build:
 1. Modify files in `` src  ``
-2. Run `` npm run clean `` to clear out old static files
-3. Run `` npm run build `` to build html in `` build/html ``
-4. Run `` npm run deploy `` to deploy statif files to github
+2. Clear out old static files `` npm run clean ``
+3. Build html `` npm run build ``
+4. Deploy static files to github `` npm run deploy ``
